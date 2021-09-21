@@ -43,7 +43,7 @@ public class HomePage extends base{
 		lp.getPassword().sendKeys(Password);
 
 		log.info(text);
-		
+		System.out.println(text);
 		lp.getLogin().click();
 		ForgotPassword fp= lp.forgotPassword();
 		fp.getEmail().sendKeys("xxx");
